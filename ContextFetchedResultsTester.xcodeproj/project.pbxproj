@@ -15,6 +15,7 @@
 		E6C49FE11B7FF5FE0091F595 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6C49FE01B7FF5FE0091F595 /* Images.xcassets */; };
 		E6C49FE41B7FF5FE0091F595 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6C49FE21B7FF5FE0091F595 /* LaunchScreen.xib */; };
 		E6C49FF01B7FF5FE0091F595 /* ContextFetchedResultsTesterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E6C49FEF1B7FF5FE0091F595 /* ContextFetchedResultsTesterTests.m */; };
+		E6C49FFB1B7FF7B30091F595 /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = E6C49FFA1B7FF7B30091F595 /* Item.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		E6C49FE91B7FF5FE0091F595 /* ContextFetchedResultsTesterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContextFetchedResultsTesterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6C49FEE1B7FF5FE0091F595 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E6C49FEF1B7FF5FE0091F595 /* ContextFetchedResultsTesterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContextFetchedResultsTesterTests.m; sourceTree = "<group>"; };
+		E6C49FF91B7FF7B30091F595 /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
+		E6C49FFA1B7FF7B30091F595 /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +95,8 @@
 				E6C49FE21B7FF5FE0091F595 /* LaunchScreen.xib */,
 				E6C49FD71B7FF5FE0091F595 /* ContextFetchedResultsTester.xcdatamodeld */,
 				E6C49FD01B7FF5FE0091F595 /* Supporting Files */,
+				E6C49FF91B7FF7B30091F595 /* Item.h */,
+				E6C49FFA1B7FF7B30091F595 /* Item.m */,
 			);
 			path = ContextFetchedResultsTester;
 			sourceTree = "<group>";
@@ -222,6 +227,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6C49FFB1B7FF7B30091F595 /* Item.m in Sources */,
 				E6C49FD61B7FF5FE0091F595 /* AppDelegate.m in Sources */,
 				E6C49FD91B7FF5FE0091F595 /* ContextFetchedResultsTester.xcdatamodeld in Sources */,
 				E6C49FDC1B7FF5FE0091F595 /* ViewController.m in Sources */,
